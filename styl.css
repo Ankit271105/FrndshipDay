@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Font1;
+    src: url(kesslersuperdisplayweb-regular.ttf);
+}
+
+@font-face {
+    font-family: Font2;
+    src: url(FraktionMono-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(245, 240, 233);
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 120%;
+    background-color: rgb(245, 240, 233);
+
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(245, 240, 233);
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5vw 1.2vw;
+    border: 1px solid #333;
+    border-radius: 50px;
+    font-size: 0.5vw;
+    font-family: Font2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+.t-center{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+}
+
+.b-center{
+    width: 100%;
+    height: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+}
+
+.center h1{
+    line-height: 15vh;
+    font-size: 10vw;
+    font-weight: 400;
+    font-family: Font1;
+    text-align: center;
+}
+
+.c-center-one{
+    position: relative;
+    transform-origin: center;
+    width: 100%;
+    height: 0vh;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.c-center-two{
+    width: 100%;
+    height: 0vh;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+
+.img-all{
+    position: absolute;
+    opacity: 1;
+    pointer-events: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-one{
+    bottom: 60%;
+    right: 50%;
+    width: 25vw;
+    height: 25vh;
+    filter: blur(500px);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+}
+
+.img-two{
+    top: 60%;
+    left: 50%;
+    width: 15vw;
+    height: 17vh;
+    filter: blur(500px);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+}
+
+
+.img-three{
+    top: 50%;
+    left: 30%;
+    width: 10vw;
+    height: 12vh;
+    background-image: url(https://images.unsplash.com/photo-1683446297911-f4a1fa8e62dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80);
+    filter: blur(500px);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+}
+
+
+.img-four{
+    top: 30%;
+    left: 50%;
+    width: 7vw;
+    height: 7vh;
+    background-image: url(photo1.jpeg);
+    filter: blur(500px);
+}
+
+#one{
+    background-image: url(photo2.jpeg);
+}
+
+#two{
+    background-image: url(photo3.jpeg);
+}
+
+#three{
+    background-image: url(WhatsApp\ Image\ 2024-08-04\ at\ 9.47.47\ PM.jpeg);
+}
+
+#four{
+    background-image: url(photo5.jpeg);
+}
+
+#five{
+    background-image: url(photo4.jpeg);
+}
+
+#six{
+    background-image: url(photo1.jpeg);
+}
+
+#seven{
+    background-image: url(photo7.jpeg);
+}
+
+#eight{
+    background-image: url(photo4.jpeg);
+}
